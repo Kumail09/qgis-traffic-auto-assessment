@@ -1,12 +1,21 @@
-Welcome to Lumache's documentation!
+Welcome to Qgis-Auto-Traffic-Assessment documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
 
-Check out the :doc:`usage` section for further information, including
+
+Belgium consists of 3 regions: Vlaanderen (VL), Wallonia (WL) and Brussels (BXL).
+Each have their own maps.
+The goal is to make maps for Belgium - Vlaanderen aka VL as version 1.0. We
+will not take Brussels
+aka BXL nor
+Wallonie aka WL into consideration.
+However, for bus and bike networks, we sometimes need information
+that belongs to the
+other regions if the coordinates are close to the border of the regions.
+This is because the networks are not limited to the border lines of the regions.
+Train is a continuous network for the whole country.
+
+Check out the :doc:`structure` section for further information, including
 how to :ref:`installation` the project.
 
 .. note::
@@ -19,4 +28,5 @@ Contents
 .. toctree::
 
    usage
+   structure
    api
