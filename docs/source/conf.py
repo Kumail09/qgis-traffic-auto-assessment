@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'AutoTrafficAssessment'
+project = 'Qgis Auto Traffic Assessment'
 copyright = '2022'
 author = 'Kumail'
 

@@ -64,7 +64,7 @@ Hors network
 
 idem
 
-Road Hierchie VL
+Road Hierarchy VL
 /////
 
 Map showing the hierarchy of roads
@@ -73,6 +73,6 @@ not present
 Trainnetwork
 /////
 
-train lines and stops
+Train lines and stops
 
 
