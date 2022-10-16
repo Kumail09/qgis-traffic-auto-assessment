@@ -17,7 +17,7 @@ DB Schema: ``uitrit0``
 Database Structure and Mapping
 *******
 .. csv-table:: Data
-   :file: static/DBMapping.csv
+   :file: /static/DBMapping.csv
    :widths: 30, 70
    :header-rows: 1
 
@@ -29,7 +29,7 @@ Data is Stored in GISdata Directory found at ``/usr/GISdata`` on the server.
 
 Structure of Directory:
 *******
-.. image:: static/DatabaseDir.png
+.. image:: /static/DatabaseDir.png
 
 
 
