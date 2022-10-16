@@ -15,8 +15,8 @@ other regions if the coordinates are close to the border of the regions.
 This is because the networks are not limited to the border lines of the regions.
 Train is a continuous network for the whole country.
 
-Check out the :doc:`Maps` or :doc:`Data` section for further information, including
- :ref:`structure` of the project.
+Check out the :doc:`maps` or :doc:`data` section for further information, including
+ :doc:`structure` of the project.
 
 .. note::
 
