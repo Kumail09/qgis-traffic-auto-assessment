@@ -1,0 +1,46 @@
+Layer,Translation,Data,Image Name,Extent,Data Source
+admin_bounday,,Provinces en gemeenten,,,https://data.gov.be/nl/dataset/b47f2ffd-ebc9-413c-903f-d83af520fcdb
+[microsituering],[micro situation of the project],GRB Grijs,SituationMicroVL,150m,"https://overheid.vlaanderen.be/grb-grb-downloaden-bestellen !! this is not a server, only server map is available"
+reisweg,travel itinery bus VL,reiswegen de lijn,BusVL,15 km,https://geoservices.informatievlaanderen.be/overdrachtdiensten/Reiswegen/wfs?service=WFS&request=getcapabilities
+haltes,bus stops vl,haltes de lijn,BusstopsVL,500m,https://geoservices.informatievlaanderen.be/overdrachtdiensten/Haltes/wfs?service=WFS&request=getcapabilities
+ruiter_trajecten,horse tracks,ruiterpaden,HorsetrackVL,5 km,https://metadata.vlaanderen.be/srv/dut/catalog.search#/metadata/0addb054-f131-4790-a437-c094b0324707
+ruiter_knooppunten,horse tracks nodes,,HorsetrackVL,,
+wandel_trajecten,walking routes vl,wandelnetwerk,WalknetworkVL,5 km,https://metadata.vlaanderen.be/srv/dut/catalog.search#/metadata/621a818c-273b-4d33-86fa-0fc9d549b786
+wandel_knooppunten,walking routes nodes vl,,WalknetworkVL,,
+might contain more than 1 layer,"several layers, needs to be listed fully",fietsnetwerk lange afstand,BikenetworkVLLAFR,1.5 km,http://trip.toerismevlaanderen.be/arcgis/rest/services/
+fietsBXLFRN,Interregional bike routes BXL-VL,data FRN BXL ea,BikeBXLFRN,1.5 km,data-mobility.irisnet.be
+tec_lines,travel itinerary bus WL,data tec buslijnen,BusWL,15 km,https://geodata.tec-wl.be/arcgis/services/Lignes/MapServer/WMSServer?request=GetCapabilities&service=WMS
+tec_stops,bus stops WL,,BusstopsWL,500m,https://geodata.tec-wl.be/arcgis/services/Poteaux/MapServer/WMSServer?request=GetCapabilities&service=WMS
+sncb_nmbs_lines,train lines,treinen ,Train,50 km,https:// data.gov.be/
+sncb_nmbs_stops,train stops,,Trainstops,5 km,
+promenade_vert_bike,walking routes WL,promenade_vert_bike,WalknetworkBXLPV,3 Km,http://10.1.10.177:8080/geoserver/bm_bike/wfs?service=wfs&version=1.1.0&request=GetFeature&typeName=bm_bike:promenade_vert_bike&outputFormat=shape-zip&srsName=EPSG:31370
+rer_velo,bike routes BXL ,rer_velo,BikeBXLRER,1.5 km,http://10.1.10.177:8080/geoserver/bm_bike/wfs?service=wfs&version=1.1.0&request=GetFeature&typeName=bm_bike:rer_velo&outputFormat=shape-zip&srsName=EPSG:31370
+stib_lines,bus travel itinary BXL,stib_lines,BusBXL,10 km,http://10.1.10.177:8080/geoserver/bm_public_transport/wfs?service=wfs&version=1.1.0&request=GetFeature&typeName=bm_public_transport:stib_lines&outputFormat=shape-zip&srsName=EPSG:31370
+stib_stops,bus stops BXL,stib_stops,BusstopsBXL,500m,http://10.1.10.177:8080/geoserver/bm_public_transport/wfs?service=wfs&version=1.1.0&request=GetFeature&typeName=bm_public_transport:stib_stops&outputFormat=shape-zip&srsName=EPSG:31370
+FietsBXLICR,french version of fietsBXLFRN,icr,BikeBXLICR,1.5 km,http://10.1.10.177:8080/geoserver/bm_bike/wfs?service=wfs&version=1.1.0&request=GetFeature&typeName=bm_bike:icr&outputFormat=shape-zip&srsName=EPSG:31370
+background BXL NL,background for BXL (the hole in the VL map),wegen brussel GML,BXL NL roads,same as top layer,http://geoservices-inspire.irisnet.be/geoserver/cirb_cibg/wms?service=WMS&version=1.3.0&request=GetCapabilities
+background BXL FR,background for BXL with french data,URBIS BXL road map,BXL FR roads,same as top layer,http://geoservices-inspire.irisnet.be/geoserver/cirb_cibg/wms?service=WMS&version=1.3.0&request=GetCapabilities
+villes,,villes,,,https://www.atlas-belgique.be/index.php/en/resources/map-data/
+fietssnelwegen,bike routes VL long distance type A,fietssnelwegen,BikeVLFSW,10 km,https://geoservices.vlaamsbrabant.be/FSW/MapServer/WFSServer?
+fiets_knooppunten_trajecten,bike routes VL long distance type c route,knooppuntroutes fiets,BikeVLKPR,5 km,http://trip.toerismevlaanderen.be/arcgis/rest/services/
+fiets_knooppunten_routes,bike routes VL long distance type c nodes,,BikeVLKPR,,
+cantons,,cantons,,,https://www.atlas-belgique.be/index.php/en/resources/map-data/
+bff,bike routes VL long distance type B,bff,BikeVLBFF,10 km,http://trip.toerismevlaanderen.be/arcgis/rest/services/
+- same as stib haltes?,,mivb haltes en routes,,,http://geoservices-inspire.irisnet.be/geoserver/stib_mivb/wms?service=WMS&version=1.3.0&request=GetCapabilities
+,,Transport network,,,https://data-mobility.brussels/geoserver/inspire_bm/wms?service=WMS&version=1.3.0&request=GetCapabilities.
+,,Adressen ,,,https://s.irisnet.be/v1/AUTH_ce3f7c74-fbd7-4b46-8d85-53d10d86904f/Inspire/URBIS_ADM_Adresses.zip
+postal_districts,borders of the Belgian postal codes,postal districts,,,https://wms.ngi.be/inspire/bpost/service?request=GetCapabilities&service=WMS&version=1.3.0
+addressen_vlaanderen,addresses in flanders,Addressen,,,https://wms.ngi.be/inspire/best/service?request=GetCapabilities&service=WMS&version=1.3.0
+addressen_brussels,addresses in brussels,,,,https://opendata.bosa.be/index.nl.html
+addressen_wallonie,addresses in wallonie,,,,
+,,,,,
+https://www.geo.be/home?l=nl,,useful,,,
+,,,J: I can digitize. if no alternative,,25 and 26 have the same wms link which isnt working. We need a WFS for them
+,,,J: done - tec lines loading into position,,34 needs a reprojection. Will work on it. Meanwhile Wegknoop and Wegsegment can be used. They are roads all over Be
+https://data.mobility.brussels/nl/info/Regional_roads/,,regional routes BXL - no go,,,
+urbis wfs:,,see zip file to redraw the lines,,,
+"used street axis, street nodes, background grey",,,,,
+urbis-adm,,,,,http://geoservices-urbis.irisnet.be/geoserver/ows?/
+luchtfoto urbis,,,,,http://geoservices-urbis.irisnet.be/geoserver/ows?/
+beheersegmenten,,regionale routes Vlaanderen,,,https://opendata.apps.mow.vlaanderen.be/opendata-geoserver/awv/wfs?
+ regional_roads_wallonie,,routes régionales Wallonie,,,https://geoservices.wallonie.be/arcgis/rest/services/MOBILITE/RES_ROUTIER_REGIONAL_THEMATIQUE/MapServer
