@@ -33,7 +33,7 @@ Background:	`Open Streetmap`
 Project 3 : Meso Location
 ****
 
-:maps#id-1:
+:doc:`maps#id-1`
 
 
 Range: `5 km`

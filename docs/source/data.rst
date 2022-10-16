@@ -19,7 +19,7 @@ Database Structure and Mapping
 
 .. csv-table:: Data
    :file: /static/DBMapping.csv
-   :widths: 30, 70
+   :widths: 10, 15, 20, 20, 15, 20
    :header-rows: 1
 
 
