@@ -6,6 +6,9 @@ Project Structure
 
 Project 1 : Macro Location
 *****
+
+:maps#situation-macro:
+
 Range: `25 km`
 
 Background:	`Open Streetmap`
@@ -20,12 +23,19 @@ Rename legend `admin_Boundery` to `Gemeentegrenzen`
 
 Project 2 : Meso Location
 ****
+
+:maps#situation-meso:
+
 Range: `5 km`
 
 Background:	`Open Streetmap`
 
 Project 3 : Meso Location
 ****
+
+:maps#id-1:
+
+
 Range: `5 km`
 
 Background:	none
