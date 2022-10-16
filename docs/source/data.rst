@@ -16,6 +16,7 @@ DB Schema: ``uitrit0``
 
 Database Structure and Mapping
 *******
+
 .. csv-table:: Data
    :file: /static/DBMapping.csv
    :widths: 30, 70
