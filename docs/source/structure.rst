@@ -24,7 +24,7 @@ Rename legend `admin_Boundery` to `Gemeentegrenzen`
 Project 2 : Meso Location
 ****
 
-:maps#situation-meso:
+:doc:`maps#situation-meso`
 
 Range: `5 km`
 
